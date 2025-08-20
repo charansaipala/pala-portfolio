@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import heroImage from "@/assets/hero-workspace.jpg";
+const heroImage = "/lovable-uploads/263f829d-1ceb-44fc-9240-e9ea71958c6d.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -79,7 +79,7 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img
                 src={heroImage}
-                alt="Professional workspace"
+                alt="Profile photo in mountain landscape"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent" />
