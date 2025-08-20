@@ -19,15 +19,16 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Hi, I'm{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Alex Johnson
+                  Charan Sai Pala
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Senior Full-Stack Developer & Product Designer
+                Software Engineer at Microsoft
               </p>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Crafting exceptional digital experiences with modern technologies. 
-                Passionate about clean code, intuitive design, and innovative solutions.
+                Experienced Software Engineer proficient in front-end and back-end development, 
+                with expertise in AEM, modern JavaScript frameworks, and building responsive web applications. 
+                Passionate about building scalable, user-friendly solutions.
               </p>
             </div>
 
@@ -51,21 +52,21 @@ const Hero = () => {
 
             <div className="flex gap-6">
               <a 
-                href="https://github.com" 
+                href="https://github.com/charansaipala" 
                 className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-6 h-6" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://in.linkedin.com/in/charanpala" 
                 className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6" />
               </a>
               <a 
-                href="mailto:hello@alexjohnson.dev" 
+                href="mailto:palacharansai@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110"
                 aria-label="Email Contact"
               >

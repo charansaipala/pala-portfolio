@@ -46,7 +46,7 @@ const Navigation = () => {
             onClick={scrollToTop}
             className="text-xl font-bold text-foreground hover:text-primary transition-smooth"
           >
-            Alex Johnson
+            Charan Sai Pala
           </button>
 
           {/* Desktop Navigation */}

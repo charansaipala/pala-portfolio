@@ -6,81 +6,81 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard. Built for scalability with microservices architecture.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Redis", "Stripe", "AWS"],
+      title: "YOGA Class Website",
+      description: "A fully responsive e-commerce website for a yoga class business with online merchandise purchases and streamlined user interactions using modern JavaScript technologies.",
+      technologies: ["JavaScript", "HTML", "CSS", "jQuery"],
       highlights: [
-        "Handles 50,000+ products with real-time inventory",
-        "Integrated payment processing with multiple gateways",
-        "Admin dashboard with advanced analytics"
+        "Developed fully responsive e-commerce functionality",
+        "Enabled online merchandise purchases",
+        "Improved website traffic by 50%"
       ],
-      demoUrl: "https://demo-ecommerce.com",
-      githubUrl: "https://github.com/alexjohnson/ecommerce-platform",
+      demoUrl: "https://yoga-class-demo.com",
+      githubUrl: "https://github.com/charansaipala/yoga-website",
       featured: true
     },
     {
-      title: "Task Management SaaS",
-      description: "Collaborative project management tool with real-time updates, team workflows, and advanced reporting. Designed for remote teams and agile workflows.",
-      technologies: ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
+      title: "AEM Component Library",
+      description: "Scalable Adobe Experience Manager component library built with Angular and TypeScript, featuring reusable components that improved development efficiency and maintainability.",
+      technologies: ["AEM", "Angular", "TypeScript", "LIT", "JavaScript", "CSS"],
       highlights: [
-        "Real-time collaboration features",
-        "Custom workflow builder",
-        "Advanced project analytics"
+        "20% reduction in page load times",
+        "Reusable component architecture",
+        "Client libraries for global JavaScript and CSS management"
       ],
-      demoUrl: "https://taskmanager-demo.com",
-      githubUrl: "https://github.com/alexjohnson/task-manager",
+      demoUrl: "https://aem-components-demo.com",
+      githubUrl: "https://github.com/charansaipala/aem-components",
       featured: true
     },
     {
-      title: "Healthcare Dashboard",
-      description: "HIPAA-compliant patient management system with appointment scheduling, medical records, and telemedicine integration.",
-      technologies: ["Vue.js", "Laravel", "MySQL", "Docker", "AWS"],
+      title: "Full-Stack Web Application",
+      description: "Dynamic web application built during my time at APSSDC with focus on user engagement and accessibility. Implemented using Angular with SQL database integration.",
+      technologies: ["Angular", "HTML", "CSS", "SQL", "JavaScript"],
       highlights: [
-        "HIPAA compliant security measures",
-        "Integrated telemedicine platform",
-        "Advanced patient analytics"
+        "Improved user engagement by 30%",
+        "Dynamic and accessible web pages",
+        "Full-stack implementation with database integration"
       ],
-      demoUrl: "https://healthcare-demo.com",
-      githubUrl: "https://github.com/alexjohnson/healthcare-dashboard",
+      demoUrl: "https://fullstack-app-demo.com",
+      githubUrl: "https://github.com/charansaipala/fullstack-app",
       featured: false
     },
     {
-      title: "Real Estate Platform",
-      description: "Property listing and management platform with virtual tours, advanced search, and CRM integration for real estate professionals.",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "Tailwind", "Vercel"],
+      title: "API Testing Framework",
+      description: "Comprehensive API testing framework using Postman for ensuring seamless data integration across multiple web applications and services.",
+      technologies: ["Postman", "REST APIs", "JavaScript", "JSON"],
       highlights: [
-        "360° virtual property tours",
-        "Advanced property search filters",
-        "Integrated CRM for agents"
+        "Automated API testing workflows",
+        "Comprehensive test coverage for data integration",
+        "Seamless integration testing across services"
       ],
-      demoUrl: "https://realestate-demo.com",
-      githubUrl: "https://github.com/alexjohnson/real-estate-platform",
+      demoUrl: "https://api-testing-demo.com",
+      githubUrl: "https://github.com/charansaipala/api-testing-framework",
       featured: false
     },
     {
-      title: "Finance Tracker",
-      description: "Personal finance management app with expense tracking, budgeting tools, and investment portfolio management.",
-      technologies: ["React Native", "Express.js", "MongoDB", "Chart.js"],
+      title: "Responsive UI Components",
+      description: "Collection of responsive UI components built with HTML5, CSS, and JavaScript, focusing on performance optimization and cross-browser compatibility.",
+      technologies: ["HTML5", "CSS", "JavaScript", "Bootstrap"],
       highlights: [
-        "Automated expense categorization",
-        "Investment portfolio tracking",
-        "Custom budget planning tools"
+        "15% improvement in site performance",
+        "Cross-browser compatible components",
+        "Semantic HTML and accessibility focused"
       ],
-      demoUrl: "https://finance-tracker-demo.com", 
-      githubUrl: "https://github.com/alexjohnson/finance-tracker",
+      demoUrl: "https://ui-components-demo.com",
+      githubUrl: "https://github.com/charansaipala/ui-components",
       featured: false
     },
     {
-      title: "AI Content Generator",
-      description: "AI-powered content creation tool for marketing teams with template management, brand voice consistency, and collaboration features.",
-      technologies: ["React", "OpenAI API", "Node.js", "PostgreSQL", "Docker"],
+      title: "JavaScript E-Commerce Solution",
+      description: "Modern e-commerce solution built with vanilla JavaScript and jQuery, featuring shopping cart functionality, user authentication, and payment integration.",
+      technologies: ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap"],
       highlights: [
-        "AI-powered content generation",
-        "Brand voice consistency engine", 
-        "Team collaboration features"
+        "Full shopping cart implementation",
+        "User authentication system", 
+        "Responsive design with Bootstrap"
       ],
-      demoUrl: "https://ai-content-demo.com",
-      githubUrl: "https://github.com/alexjohnson/ai-content-generator",
+      demoUrl: "https://js-ecommerce-demo.com",
+      githubUrl: "https://github.com/charansaipala/js-ecommerce",
       featured: false
     }
   ];

@@ -5,56 +5,46 @@ import { Building, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "TechCorp Solutions",
-      position: "Senior Full-Stack Developer",
-      duration: "2022 - Present",
-      location: "San Francisco, CA",
-      description: "Leading a team of 6 developers in building scalable SaaS platforms. Architected microservices handling 1M+ daily requests and implemented CI/CD pipelines reducing deployment time by 70%.",
+      company: "Microsoft",
+      position: "Software Engineer",
+      duration: "04/2022 – Present",
+      location: "Charlotte, NC",
+      description: "Designing and developing responsive user interfaces using HTML5, CSS, JavaScript, and AEM. Leading the development of scalable AEM components and creating reusable components using Angular, TypeScript, and LIT.",
       achievements: [
-        "Increased application performance by 40% through optimization",
-        "Mentored 4 junior developers and established coding standards",
-        "Led migration to modern React architecture with TypeScript"
+        "Enhanced site performance by 15% through optimized UI development",
+        "Achieved 20% reduction in page load times with scalable AEM components",
+        "Developed reusable AEM components using Angular, TypeScript, and LIT",
+        "Created client libraries at component and global level for JavaScript and CSS"
       ],
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "PostgreSQL"]
+      technologies: ["HTML5", "CSS", "JavaScript", "AEM", "Angular", "TypeScript", "LIT", "jQuery"]
     },
     {
-      company: "StartupXYZ",
-      position: "Full-Stack Developer",
-      duration: "2020 - 2022",
-      location: "New York, NY",
-      description: "Built the entire product from ground up, including web application, mobile APIs, and admin dashboard. Collaborated directly with founders to define product strategy and user experience.",
+      company: "T-Mobile",
+      position: "Software Engineer", 
+      duration: "07/2021 – 03/2022",
+      location: "Charlotte, NC",
+      description: "Designed, developed and supported all AEM components, integrations, and related applications. Performed AEM upgrades, patches, and worked closely with Adobe Managed services.",
       achievements: [
-        "Delivered MVP in 4 months ahead of schedule",
-        "Scaled platform to support 10,000+ active users",
-        "Implemented real-time features using WebSocket technology"
+        "Led design and development of AEM components and integrations",
+        "Successfully performed AEM upgrades and patches",
+        "Collaborated with Adobe Managed services for product compliance",
+        "Worked closely with business analysts and product owners"
       ],
-      technologies: ["React", "Express.js", "MongoDB", "Redis", "Socket.io", "Stripe API"]
+      technologies: ["AEM", "JavaScript", "HTML", "CSS", "Adobe Managed Services"]
     },
     {
-      company: "Digital Agency Pro",
-      position: "Frontend Developer",
-      duration: "2019 - 2020",
-      location: "Austin, TX",
-      description: "Developed responsive websites and web applications for Fortune 500 clients. Focused on performance optimization and accessibility compliance.",
+      company: "APSSDC",
+      position: "Software Engineer",
+      duration: "11/2018 – 07/2019", 
+      location: "Guntur, India",
+      description: "Worked through the software development life cycle gathering user requirements by collaborating with project managers, stakeholders, and industry members. Spearheaded the development of dynamic, accessible web pages.",
       achievements: [
-        "Delivered 15+ client projects with 100% satisfaction rate",
-        "Improved website load times by average of 50%",
-        "Achieved WCAG 2.1 AA compliance across all projects"
+        "Improved user engagement by 30% through dynamic web page development",
+        "Implemented full-stack web applications using Angular, HTML, CSS, and SQL",
+        "Conducted comprehensive API testing with Postman",
+        "Collaborated effectively with project managers and stakeholders"
       ],
-      technologies: ["React", "Vue.js", "Sass", "Webpack", "jQuery", "PHP"]
-    },
-    {
-      company: "WebCraft Studio",
-      position: "Junior Developer",
-      duration: "2018 - 2019",
-      location: "Remote",
-      description: "Started my professional journey building WordPress themes and custom web solutions. Gained foundational experience in web development best practices.",
-      achievements: [
-        "Built 20+ custom WordPress themes",
-        "Learned modern JavaScript frameworks and tools",
-        "Contributed to open-source projects"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "MySQL"]
+      technologies: ["Angular", "HTML", "CSS", "SQL", "JavaScript", "Postman"]
     }
   ];
 
@@ -67,7 +57,7 @@ const Experience = () => {
               Work Experience
             </h2>
             <p className="text-xl text-muted-foreground">
-              A journey through my professional development career
+              A journey through my software engineering career
             </p>
           </div>
 

@@ -34,8 +34,8 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              I'm a passionate developer with over 6 years of experience building 
-              scalable web applications and leading product development teams.
+              I'm a passionate Software Engineer with expertise in AEM, JavaScript frameworks, 
+              and building scalable web applications at top tech companies like Microsoft and T-Mobile.
             </p>
           </div>
 
@@ -43,15 +43,15 @@ const About = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-foreground">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Started as a curious computer science student, I've evolved into a 
-                full-stack developer who bridges the gap between technical excellence 
-                and user-centered design. I believe great software is built when 
-                engineering meets empathy.
+                Started with a Bachelor's in Electronics & Communication Engineering from India, 
+                I evolved into a skilled Software Engineer through a Master's in Software Engineering 
+                from the University of Maryland. Currently working at Microsoft, I specialize in 
+                AEM development and modern web technologies.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source projects, or mentoring aspiring developers 
-                in the community.
+                I believe in creating scalable, user-friendly solutions that make a real impact. 
+                My experience spans from full-stack development to performance optimization, 
+                always focusing on delivering exceptional user experiences.
               </p>
             </div>
 
@@ -59,12 +59,12 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-foreground">What I Bring</h3>
               <ul className="space-y-3">
                 {[
-                  "6+ years of professional development experience",
-                  "Led teams of 5-8 developers across multiple projects", 
-                  "Delivered 20+ successful web applications",
-                  "Expert in React, TypeScript, Node.js, and AWS",
-                  "Strong focus on performance and accessibility",
-                  "Agile methodologies and CI/CD best practices"
+                  "Master's in Software Engineering from University of Maryland",
+                  "Currently Software Engineer at Microsoft", 
+                  "Expertise in AEM, Angular, TypeScript, and modern web technologies",
+                  "Improved site performance by 15% and reduced page load times by 20%",
+                  "Adobe Certified Expert – Adobe Experience Manager Sites Developer",
+                  "Strong background in responsive web design and user experience"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />

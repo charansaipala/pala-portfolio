@@ -7,44 +7,55 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "Vue.js", level: 80 }
+        { name: "HTML5/CSS", level: 95 },
+        { name: "JavaScript", level: 90 },
+        { name: "TypeScript", level: 85 },
+        { name: "Angular", level: 85 }
       ]
     },
     {
-      title: "Backend Development", 
+      title: "Backend & Database", 
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Express.js", level: 85 },
-        { name: "PostgreSQL", level: 80 },
+        { name: "Java", level: 80 },
+        { name: "Python", level: 75 },
+        { name: "SQL/MySQL", level: 85 },
         { name: "MongoDB", level: 75 }
       ]
     },
     {
-      title: "DevOps & Tools",
+      title: "Tools & Frameworks",
       skills: [
-        { name: "AWS", level: 85 },
-        { name: "Docker", level: 80 },
-        { name: "Git", level: 95 },
-        { name: "CI/CD", level: 75 }
+        { name: "AEM", level: 90 },
+        { name: "React", level: 80 },
+        { name: "Node.js", level: 75 },
+        { name: "Spring Boot", level: 70 }
       ]
     }
   ];
 
   const technologies = [
-    "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Node.js", 
-    "Express.js", "PostgreSQL", "MongoDB", "Redis", "AWS", "Docker",
-    "Kubernetes", "GraphQL", "REST APIs", "Tailwind CSS", "Sass",
-    "Jest", "Cypress", "Git", "Figma", "Adobe Creative Suite"
+    "HTML", "CSS", "TypeScript", "LIT", "JavaScript", "Java", "Python", 
+    "React", "Angular JS", "Spring Boot", "Node.js", "Bootstrap",
+    "MVC", "RESTful API", "MySQL", "NoSQL", "SQL Server", "MongoDB",
+    "Visual Studio Code", "IntelliJ", "Git", "Anaconda", "PyCharm", "RStudio",
+    "Adobe Experience Manager (AEM)", "jQuery", "Postman"
   ];
 
   const certifications = [
-    "AWS Certified Developer - Associate",
-    "Google Cloud Professional Developer", 
-    "MongoDB Certified Developer",
-    "Certified Scrum Master (CSM)"
+    "Adobe Certified Expert – Adobe Experience Manager Sites Developer",
+  ];
+
+  const education = [
+    {
+      degree: "Master of Engineering in Software Engineering",
+      school: "University of Maryland, College Park",
+      year: "May 2021"
+    },
+    {
+      degree: "Bachelor of Technology in Electronics & Communication Engineering", 
+      school: "Madanapalle Institute of Technology & Science, India",
+      year: "June 2018"
+    }
   ];
 
   return (
@@ -53,10 +64,10 @@ const Skills = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Skills & Expertise
+              Skills & Education
             </h2>
             <p className="text-xl text-muted-foreground">
-              Technologies and tools I work with to bring ideas to life
+              Technologies and expertise that drive my development work
             </p>
           </div>
 
@@ -102,22 +113,39 @@ const Skills = () => {
             </CardContent>
           </Card>
 
-          {/* Certifications */}
-          <Card className="border-border bg-card">
-            <CardHeader>
-              <CardTitle className="text-xl text-foreground">Certifications</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-4">
-                {certifications.map((cert, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0" />
-                    <span className="text-muted-foreground">{cert}</span>
+          {/* Education & Certifications */}
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="border-border bg-card">
+              <CardHeader>
+                <CardTitle className="text-xl text-foreground">Education</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {education.map((edu, index) => (
+                  <div key={index} className="space-y-1">
+                    <h4 className="font-medium text-foreground">{edu.degree}</h4>
+                    <p className="text-muted-foreground">{edu.school}</p>
+                    <p className="text-sm text-muted-foreground">{edu.year}</p>
                   </div>
                 ))}
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border bg-card">
+              <CardHeader>
+                <CardTitle className="text-xl text-foreground">Certifications</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {certifications.map((cert, index) => (
+                    <div key={index} className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0" />
+                      <span className="text-muted-foreground">{cert}</span>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </section>

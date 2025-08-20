@@ -37,20 +37,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@alexjohnson.dev",
-      href: "mailto:hello@alexjohnson.dev"
+      value: "palacharansai@gmail.com",
+      href: "mailto:palacharansai@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+1 (301) 728-0828",
+      href: "tel:+13017280828"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
-      href: "https://maps.google.com/?q=San+Francisco,CA"
+      value: "Charlotte, NC",
+      href: "https://maps.google.com/?q=Charlotte,NC"
     }
   ];
 
@@ -58,20 +58,20 @@ const Contact = () => {
     {
       icon: Github,
       title: "GitHub",
-      href: "https://github.com/alexjohnson",
-      username: "@alexjohnson"
+      href: "https://github.com/charansaipala",
+      username: "@charansaipala"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
-      href: "https://linkedin.com/in/alexjohnson",
-      username: "/in/alexjohnson"
+      href: "https://in.linkedin.com/in/charanpala",
+      username: "/in/charanpala"
     },
     {
       icon: Twitter,
       title: "Twitter",
-      href: "https://twitter.com/alexjohnson",
-      username: "@alexjohnson"
+      href: "https://twitter.com/charansaipala",
+      username: "@charansaipala"
     }
   ];
 
@@ -226,7 +226,7 @@ const Contact = () => {
                   className="border-border hover:bg-secondary transition-smooth"
                   asChild
                 >
-                  <a href="mailto:hello@alexjohnson.dev">
+                  <a href="mailto:palacharansai@gmail.com">
                     <Mail className="w-4 h-4 mr-2" />
                     Let's Talk
                   </a>
