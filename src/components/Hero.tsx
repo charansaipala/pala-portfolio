@@ -23,12 +23,12 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Software Engineer at Microsoft
+                Site Reliability Engineer at Google
               </p>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Experienced Software Engineer proficient in front-end and back-end development, 
-                with expertise in AEM, modern JavaScript frameworks, and building responsive web applications. 
-                Passionate about building scalable, user-friendly solutions.
+                Site Reliability Engineer combining software and systems engineering to build and run 
+                large-scale, massively distributed, fault-tolerant systems. Passionate about optimizing 
+                existing systems, building infrastructure, and eliminating work through automation.
               </p>
             </div>
 

@@ -5,11 +5,25 @@ import { Building, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      company: "Google",
+      position: "Software Engineer - Site Reliability Engineering (SRE)",
+      duration: "07/2025 – Present",
+      location: "United States",
+      description: "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. Managing complex challenges of scale unique to Google while optimizing existing systems, building infrastructure and eliminating work through automation.",
+      achievements: [
+        "Manage project priorities, deadlines, and deliverables for large-scale systems",
+        "Design, develop, test, deploy, maintain, and enhance software solutions",
+        "Ensure reliability and uptime appropriate to users' needs with fast rate of improvement", 
+        "Focus on optimizing existing systems and building infrastructure through automation"
+      ],
+      technologies: ["System Design", "Large-scale Distributed Systems", "Infrastructure", "Automation", "Performance Optimization", "Reliability Engineering"]
+    },
+    {
       company: "Microsoft",
       position: "Software Engineer",
-      duration: "04/2022 – Present",
+      duration: "04/2022 – 06/2025",
       location: "Charlotte, NC",
-      description: "Designing and developing responsive user interfaces using HTML5, CSS, JavaScript, and AEM. Leading the development of scalable AEM components and creating reusable components using Angular, TypeScript, and LIT.",
+      description: "Designed and developed responsive user interfaces using HTML5, CSS, JavaScript, and AEM. Led the development of scalable AEM components and created reusable components using Angular, TypeScript, and LIT.",
       achievements: [
         "Enhanced site performance by 15% through optimized UI development",
         "Achieved 20% reduction in page load times with scalable AEM components",
